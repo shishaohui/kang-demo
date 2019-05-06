@@ -11,7 +11,7 @@ public class demo {
     public  void setAge(int age){
         demoAge = age;
     }
-    public  int getAge(){
+    public   int getAge(){
         System.out.println("年龄为："+ demoAge);
         return  demoAge;
     }
