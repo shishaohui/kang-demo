@@ -3,38 +3,38 @@ package kang.demo;
 import java.io.*;
 
 public class Employee {
-    int demoage1;
-    String name;
-    int age;
-    String designation;
-    double salary;
+    private int demoage1;
+    private String name;
+    private int age;
+    private String designation;
+    private double salary;
 
     // Employee 类的构造器
-    private Employee(String name) {
+    public Employee(String name) {
         this.name = name;
     }
 
-    private Employee() {
+    public Employee() {
     }
 
-    // 设置age的值
-    private void empAge(int empAge) {
-        age = empAge;
-    }
-
-    /* 设置designation的值*/
-    private void empDesignation(String empDesig) {
-        designation = empDesig;
-    }
-
-    /* 设置salary的值*/
-    private void empSalary(double empSalary) {
-        salary = empSalary;
-    }
-
-    public int getDemoage1() {
-        return demoage1;
-    }
+//    // 设置age的值
+//    private void empAge(int empAge) {
+//        age = empAge;
+//    }
+//
+//    /* 设置designation的值*/
+//    private void empDesignation(String empDesig) {
+//        designation = empDesig;
+//    }
+//
+//    /* 设置salary的值*/
+//    private void empSalary(double empSalary) {
+//        salary = empSalary;
+//    }
+//
+//    public int getDemoage1() {
+//        return demoage1;
+//    }
 
     public void setDemoage1(int demoage1) {
         this.demoage1 = demoage1;
