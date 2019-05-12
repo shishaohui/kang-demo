@@ -1,6 +1,4 @@
-package kang.demo;
-
-import java.io.*;
+package kang.demo.domain;
 
 public class Employee {
     private int demoage1;

@@ -1,6 +1,7 @@
-package kang.demo;
+package kang.demo.service;
 
-import java.io.*;
+import kang.demo.demo;
+import kang.demo.domain.Employee;
 
 public class EmployeeTestService {
 
